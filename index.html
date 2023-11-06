@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ContactForm</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="contact-info-container">
+        <div class="contact-header">
+          <h1 class="contact-info">Contact Information</h1>
+          <p class="contact-info-text">
+            We'll create high-quality linkable content and build at least 40
+            high-authority.
+          </p>
+        </div>
+
+        <div class="contact-item phone">
+          <div class="column1">
+            <img src="./resources/icons8-phone-64.png" alt="phone-icon" />
+          </div>
+          <div class="column2">
+            <p class="phoneNo">+8801779717686</p>
+            <p class="phoneNo">+988678363866</p>
+          </div>
+        </div>
+        <div class="contact-item email">
+          <div class="column1">
+            <img src="./resources/icons8-email-50.png" alt="email-icon" />
+          </div>
+          <div class="column2">
+            <p>Support@uprangly.com</p>
+          </div>
+        </div>
+        <div class="contact-item location">
+          <div class="column1">
+            <img src="./resources/icons8-location-50.png" alt="location-icon" />
+          </div>
+          <div class="column2">
+            <p class="address">New York, USA</p>
+          </div>
+        </div>
+        <div class="circle"></div>
+      </div>
+      <div class="input-container">
+        <div class="input-2columns">
+          <div class="input-group input-name">
+            <input class="input-elem" type="text" id="name" />
+            <label for="name">Your Name</label>
+          </div>
+          <div class="input-group input-email">
+            <input class="input-elem" type="text" id="email" />
+            <label for="email">Your Email</label>
+          </div>
+        </div>
+        <div class="input-group input-subject">
+          <input class="input-elem" type="text" id="subject" />
+          <label for="subject">Your Subject</label>
+        </div>
+        <div class="input-group input-message">
+          <textarea
+            class="input-elem"
+            name="message-area"
+            cols="30"
+            rows="5"
+            placeholder="Write here your message"
+          ></textarea>
+          <label for="message-area">Message</label>
+        </div>
+        <div class="button">
+          <button>Send Message</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

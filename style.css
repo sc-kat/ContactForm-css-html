@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e6f8f8;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  gap: 95px;
+  background-color: white;
+  width: 1132px;
+  height: 525px;
+  border-radius: 35px;
+  padding: 15px;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  margin-top: 100px;
+}
+
+.contact-info-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #05b8b0;
+  /* width: 383px; */
+  height: auto;
+  flex: 0 0 320px;
+  border-radius: 20px;
+  color: white;
+  padding: 50px 40px;
+  overflow: hidden;
+}
+
+.circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* background-color: #6ad5d1; */
+  /* background-image: radial-gradient(circle, #34c7c0 5%, #90e0dd 90%); */
+  background-image: linear-gradient(-30deg, #34c7c0 35%, #90e0dd 88%);
+  bottom: -50px;
+  right: -50px;
+}
+
+.contact-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.contact-info-text {
+  padding-top: 10px;
+  font-weight: 100;
+  font-size: 0.85em;
+  line-height: 1.9;
+}
+
+.contact-item {
+  display: flex;
+  padding: 20px 0;
+  font-weight: 300;
+  align-items: center;
+}
+
+.column1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.column1 img {
+  width: 30px;
+}
+
+.column2 {
+  padding: 10px;
+}
+
+.column2 p {
+  font-weight: 400;
+}
+
+.phoneNo {
+  margin-bottom: 10px;
+}
+
+.phoneNo:last-child {
+  margin-bottom: 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 95px 55px 0px;
+  gap: 35px;
+  width: 100%;
+}
+
+.input-container label {
+  display: block;
+}
+
+.input-2columns {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.input-2columns .input-group {
+  flex: 1 0 calc(50% - 25px);
+}
+
+label {
+  color: #a5a5a5;
+  font-size: 0.8em;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.input-elem {
+  border: none;
+  border-bottom: 1px solid #a5a5a5;
+  padding: 7px 7px 7px 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  outline: none;
+  width: 100%;
+}
+
+.input-message label {
+  margin-bottom: 5px;
+}
+
+.input-elem::placeholder {
+  color: #a5a5a5;
+  font-size: 0.95em;
+  font-weight: 400;
+}
+
+.input-elem:focus,
+.input-group:hover .input-elem {
+  border-bottom: 1px solid #05b8b0;
+}
+
+.input-elem:focus + label,
+.input-group:hover .input-elem + label {
+  color: #05b8b0;
+}
+
+button {
+  background-color: #05b8b0;
+  color: white;
+  padding: 15px 30px 15px 30px;
+  border-radius: 5px;
+  border: none;
+}
